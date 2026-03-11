@@ -1,0 +1,3 @@
+[submodule \"legit-lib\"]
+	path = legit-lib
+	url = https://github.com/cedric-fitzgerald/atestrepo3.git
