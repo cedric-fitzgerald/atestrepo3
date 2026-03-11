@@ -1,0 +1,11 @@
+name: Fork PR Test                                                                                                                   
+                                                                                                                                     
+on:                                                                                                                                  
+  pull_request:                                                                                                                      
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Basic test
+        run: echo "This ran from a fork PR"
